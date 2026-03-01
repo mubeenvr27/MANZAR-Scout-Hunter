@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-**MANZAR Scout Hunter** is an automated AI agent pipeline designed to continuously scan, download, and audit the latest research papers from ArXiv. It acts as an autonomous knowledge-gathering scout for the MANZAR platform (in collaboration with SUPARCO and FFC), specifically focusing on identifying novel techniques for **Neem tree detection, deforestation tracking, flooding analysis, and LULC (Land Use and Land Cover) mapping**.
+**MANZAR Scout Hunter** is an automated AI agent pipeline designed to continuously scan, download, and audit the latest research papers from ArXiv. It acts as an autonomous knowledge-gathering scout for the MANZAR platform (in collaboration with SUPARCO and Samsung), specifically focusing on identifying novel techniques for **Neem tree detection, deforestation tracking, flooding analysis, and LULC (Land Use and Land Cover) mapping**.
 
 Currently, the MANZAR platform faces a bottleneck with a baseline **F1-score of 0.48** due to spectral overlap between Neem trees and general vegetation in Sentinel-2 (Red-Edge/NIR) imagery. This project automates the search for architectural tweaks (e.g., Attention Gates, SAM2 integration) to help us reach our target **F1-score of 0.70+**, all while ensuring models can comfortably run inference on an **NVIDIA T4 GPU**.
 
