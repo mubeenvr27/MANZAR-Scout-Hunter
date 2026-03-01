@@ -1,0 +1,16 @@
+{
+  "task-runners": [
+    {
+      "runner-type": "javascript",
+      "health-check-server-port": "5681"
+    },
+    {
+      "runner-type": "python",
+      "health-check-server-port": "5682",
+      "env-overrides": {
+        "N8N_RUNNERS_PYTHON_STDLIB_ALLOW": "*",
+        "N8N_RUNNERS_PYTHON_EXTERNAL_ALLOW": "arxiv,requests,google-generativeai,llama-parse"
+      }
+    }
+  ]
+}

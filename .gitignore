@@ -1,0 +1,35 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+.env.local
+
+# Docker data
+postgres_data/
+redis_data/
+n8n_data/
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log/
+
+# Extra/Local Scripts (Optional to ignore, but usually safe to exclude local notes if unwanted)
+# shutdown_notes.txt
+# diagnose.sh
+ali
+ali.pub

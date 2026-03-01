@@ -1,0 +1,12 @@
+services:
+  n8n:
+    image: n8nio/n8n:1.20.0
+    container_name: manzar-n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_ENCRYPTION_KEY=manzar_secret_2026
+      - TZ=Asia/Karachi
+    volumes:
+      - ./n8n_data:/home/node/.n8n

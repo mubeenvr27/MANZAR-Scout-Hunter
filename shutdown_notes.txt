@@ -1,0 +1,23 @@
+sudo docker compose stop
+sudo lsof -i :5679
+cd ~/manzar-research-scout
+sudo docker compose start
+sudo docker compose ps
+
+
+# before shut down:
+sudo docker compose stop
+
+
+# AFter restart
+cd ~/manzar-research-scout
+source venv/bin/activate
+export DOCKER_BUILDKIT=1
+sudo docker compose up -d
+
+
+
+
+
+1. The Version We Used
+n8n Version 2.4.8 on a Node 20 / Debian Bookworm base.
